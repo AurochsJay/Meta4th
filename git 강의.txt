@@ -1,0 +1,59 @@
+git 사용방법 강의 오후 7시~9시
+
+프로젝트 관리 툴
+
+로컬에서 커밋해서 Github으로 넘기는거 == push라고 한다
+
+ctrl shift A 누르면 VS코드 파일 열린다
+
+가급적이면 Revert를 써라 (파일 되돌릴때) Reset은 정말 신중하게 써야한다
+
+
+
+머지 오류 안나오게 하는 팁
+프리펩단위로 저장하고 공유
+다른사람 작업물 수정할경우 해당 인원에게 고지해야함(수정중이 아닐때)
+별개의 씬에서 프리펩으로 작업한다.
+
+#키워드 
+- Fetch
+- Pull
+- Commit
+- Push
+- Checkout
+- Reset
+- Revert
+- Clone
+- Branch
+- Merge(Pull Request)
+- Gitignore
+
+# 굳이 다루진 않았지만.
+- Cherry Pick
+- Rebase (진짜 조심해야됨)
+- Git의 영역별 키워드들(업로드 과정)
+   - Working Directory
+   - Stagine Area
+   - Local Repository
+   - Remote Repository
+- Git LFS(Large File Storage)
+   - Git이 기본적으로 50MB까지밖에 못 올림(한 파일당)
+   - 정석대로라면 쓸 일은 없을거지만, 필요하다면 검색해보세용
+- Git Bash
+
+
+커밋주기
+상대적으로 작은 단위로 하는게 좋다
+
+# 커밋 예시
+- [Feat] CharacterMovement
+
+
+- [Feat] Create CharacterMovement Script
+- [Feat] CharacterMovement 초기 코딩
+- [Feat] CharacterMovement Rotate 로직 추가
+- [Feat] Character Rigidbody 컴포넌트 추가
+- [Feat] CharacterMovement 이동로직 Rigidbody_velocity 기반으로 변경
+
+오류가 나서 나중에 수정이 필요할때, 여러 단계로 되어있으면 되돌리기 편하다.
+저 단계들을 하나로 통합할 수 있다. (완벽해졌다고 생각해지면)
