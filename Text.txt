@@ -5,4 +5,3 @@ C
 수정해본다
 fix1
 fix2
-fix3
