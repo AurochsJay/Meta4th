@@ -1,7 +1,0 @@
-ABCDE
-커밋
-B
-C
-수정해본다
-fix1
-fix2
